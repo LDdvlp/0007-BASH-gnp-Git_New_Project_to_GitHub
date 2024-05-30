@@ -10,6 +10,7 @@
 # Usage :
 # gnp $1
 
+read -p "Appuyer sur [Enter] dès que le dépôt distant est créé ..." &&
 mkdir $1 &&
 cd $1 &&
 echo "# $1" >> README.md
